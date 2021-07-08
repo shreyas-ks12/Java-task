@@ -5,9 +5,9 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Main m1=new Main();
-		Device laptop = new Camera(10000, 100,5,6);
+		Device camera = new Camera(10000, 100,5,6);
 		Device computer = new Computer(1000,300,2,7);
-		Device camera = new Laptop(10000,20,7,9);
+		Device laptop = new Laptop(10000,20,7,9);
 		
 		m1.getPower(camera);
 		m1.getCost(camera);
